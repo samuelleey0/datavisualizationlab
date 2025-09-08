@@ -2,18 +2,18 @@
 
 /* Color palette inspired by typical power icon: green, black, white */
 :root {
-    --primary-green: #3cb043;
-    --dark: #222;
+    --primary-color: #d59231;
+    --dark: #85653d;
     --light: #fff;
-    --hover-green: #2e8b36;
-    --gray: #f4f4f4;
+    --hover-orange: #f7a327;
+    --yellowish: #fbe79c;
 }
 
 body {
     margin: 0;
     font-family: 'Poppins', Arial, sans-serif;
     font-weight: 500;
-    background: var(--gray);
+    background: var(--yellowish);
     color: var(--dark);
     min-height: 100vh;
     display: flex;
@@ -68,12 +68,12 @@ header {
 
 .nav-links a.active,
 .nav-links a.hovered {
-    background: var(--primary-green);
+    background: var(--primary-color);
     color: var(--light);
 }
 
 .nav-links a:not(.active):hover {
-    background: var(--hover-green);
+    background: var(--hover-orange);
     color: var(--light);
 }
 
