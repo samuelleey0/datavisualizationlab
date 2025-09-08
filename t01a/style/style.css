@@ -69,7 +69,7 @@ header {
 .nav-links a.active,
 .nav-links a.hovered {
     background: var(--primary-green);
-    color: var(--dark);
+    color: var(--light);
 }
 
 .nav-links a:not(.active):hover {
