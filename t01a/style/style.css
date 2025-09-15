@@ -94,6 +94,10 @@ section {
     margin-bottom: 2rem;
 }
 
+.televisions-section .placeholder-note {
+    font-style: italic;
+}
+
 img {
     max-width: 100%;
     height: auto;
