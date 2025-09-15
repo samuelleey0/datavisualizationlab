@@ -94,6 +94,14 @@ section {
     margin-bottom: 2rem;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+    /* optional: centers the image */
+}
+
 footer {
     background: var(--dark);
     color: var(--light);
