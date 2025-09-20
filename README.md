@@ -1,4 +1,4 @@
-# t01
+# T01
 
 This repository is for COS30045 Lab Purpose
 
